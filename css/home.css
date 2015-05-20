@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+    display: table;
+    line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 15.85%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+/* .swiper-pagination .swiper-pagination-bullet {
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+} */
+
+.banner img {
+  width: 100%;
+}
+
+.category-list {
+  margin-bottom: 15px;
+  background-color: #ffffff;
+}
+.category-list li {
+  float: left;
+  width: 25%;
+}
+
+.item {
+  padding-top: 5px;
+}
+
+.item img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.item h3 {
+  text-align: center;
+  font-family:"宋体",serif;
+  font-size:12px;
+}
+
+.sub-hot {
+  background-color: #fff;
+  /*border-left: 5px solid #8d76ff;*/
+  border-bottom: 1px solid #e9e9e9;
+  padding-left: 10px;
+  -webkit-box-shadow: 5px 0 0 0 #8d76ff inset;
+          box-shadow: 5px 0 0 0 #8d76ff inset;
+}
+.sub-new {
+  background-color: #fff;
+  /*border-left: 5px solid #41c8cd;*/
+  border-bottom: 1px solid #e9e9e9;
+  padding-left: 10px;
+  -webkit-box-shadow: 5px 0 0 0 #41c8cd inset;
+          box-shadow: 5px 0 0 0 #41c8cd inset;
+}
+.good-list {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  height: 80px;
+  background-color: #fff;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -webkit-box-shadow: 0 5px 8px 0 rgba(39,41,43,.2);
+          box-shadow: 0 5px 8px 0 rgba(39,41,43,.2);
+}
+
+.good-list li {
+  background-color: #fff;
+  display:table-cell;
+  width:100%;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+  border-right: 1px solid #e9e9e9;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.good-list li:last-child {
+  border-right: none;
+}
+
+.good-list li img {
+  width: 80%;
+  background-color: #fff;
+}  

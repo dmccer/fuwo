@@ -1,0 +1,105 @@
+/* icon */
+.icon {
+  display: inline-block;
+}
+
+.icon:before {
+  display: block;
+  content: ' ';
+  width: 14px;
+  height: 14px;
+  background-size: 14px 14px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.icon-my:before {
+  background-image: url(http://www.mri-research-ind.com/images/komentator.png);
+}
+/* header and footer */
+.header,.footer,.wrap-page{
+  position:absolute;
+  left:0;
+  right:0;
+}
+.header,.footer{
+  background-color: #fff;
+  text-align: center;
+  z-index:900;
+}
+.header{
+  height: 74px; 
+  padding-top: 20px;
+  top: 0;
+  background-color: #36b986;
+}
+.footer{
+  height: 70px;
+  bottom: 0;
+  background-color: #e5e5e5;
+}
+.wrap-page{
+  top: 74px;
+  bottom: 64px;
+  overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
+}
+.page{
+  background-color: #f7f7f7;
+}
+.page p{
+  margin-bottom: 10px;
+}
+
+.header {
+  width: 100%;
+  display: table;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.input .input-control {
+  width: 80%; 
+  height: 40px;
+  border-radius: 40px;
+  border: 1px solid #dddddd;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  color: #333333;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+/* header search */
+.header .search {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* tab menu */
+.tab {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.tab li {
+  display: table-cell;
+  vertical-align: middle;
+  /*padding-top: 8px;*/
+}
+.tab li a {
+  display: block;
+  color: #000000;
+}
+
+.tab .menu-icon {
+  text-align: center;
+  height: 14px;
+  margin-bottom: 6px;
+}
+.tab .menu-icon .icon {
+  width: 14px;
+  height: 14px;
+}
+.tab li h2 {
+  line-height: 1.2;
+}

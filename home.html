@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  
+  <link rel="stylesheet" href="css/swiper3.0.7.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/home.css">
+  <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+  <div class="header">
+    <div class="input search">
+      <input class="input-control" type="text" placeholder="请输入商品、商家、品牌" />
+    </div>
+  </div>
+  <div class="wrap-page">
+    <div class="page">
+      <div class="banner">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/changjing1.png"></div>
+            <div class="swiper-slide"><img src="images/changjing2.png"></div>
+            <div class="swiper-slide"><img src="images/changjing3.png"></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <ul class="category-list clearfix">
+        <li><div class="item"><img src="images/04.jpg" /><h3>桌椅</h3></div></li>
+        <li><div class="item"><img src="images/04.jpg" /><h3>沙发</h3></div></li>
+        <li><div class="item"><img src="images/04.jpg" /><h3>茶几</h3></div></li>
+        <li><div class="item"><img src="images/04.jpg" /><h3>床</h3></div></li>
+        <li><div class="item"><img src="images/04.jpg" /><h3>地板</h3></div></li>
+        <li><div class="item"><img src="images/04.jpg" /><h3>墙纸</h3></div></li>
+        <li><div class="item"><img src="images/04.jpg" /><h3>电视柜</h3></div></li>
+        <li><div class="item"><a href="collect.html"><img src="images/04.jpg" /><h3>全部</h3></a></div></li>
+      </ul>
+      <h2 class="sub-hot">热销</h2>
+      <ul class="good-list">
+        <li><img src="images/05.jpg" /></li>
+        <li><img src="images/06.jpg" /></li>
+        <li><img src="images/07.jpg" /></li>
+      </ul>
+      <h2 class="sub-new">新品</h2>
+      <ul class="good-list">
+        <li><img src="images/05.jpg" /></li>
+        <li><img src="images/06.jpg" /></li>
+        <li><img src="images/07.jpg" /></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer">
+    <ul class="tab">
+      <li>
+        <a href="#">
+          <div class="menu-icon">
+            <i class="icon"></i>
+          </div>
+          <h2>首页</h2>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div class="menu-icon">
+            <i class="icon"></i>
+          </div>
+          <h2>商家</h2>
+        </a>
+      </li>
+      <li>
+        <a href="collect.html">
+          <div class="menu-icon">
+            <i class="icon icon-my"></i>
+          </div>
+          <h2>收藏</h2>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <div class="menu-icon">
+            <i class="icon icon-my"></i>
+          </div>
+          <h2>我的</h2>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <script src="./js/swiper3.0.7.min.js"></script>
+  <script>
+  $(function () {
+    var swiper = new Swiper('.swiper-container', {
+        observer: true,
+        observeParents: true,
+        loop: true,
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        spaceBetween: 0,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+  });
+  </script>
+</body>
+</html>
