@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+.icon {
+  font-style: normal;
+}
+
+.good-list {
+  list-style: none;
+  background-color: #f2f2f2;
+}
+
+.good-list li {
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  -webkit-box-shadow: 0 2px 8px 1px rgba(39,41,43,.2);
+          box-shadow: 0 2px 8px 1px rgba(39,41,43,.2);
+}
+
+.good-list .good-item-header {
+  position: relative;
+  border-bottom: 1px solid #cccccc;
+  padding-top: 10px;
+}
+
+.good-list .good-item-header h2 {
+  font-size: 16px;
+  font-weight: normal;
+  height: 100%;
+  padding-left: 10px;
+}
+
+.good-list .good-item-header a {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  display: block;
+  height: 100%;
+  font-size: 14px;
+}
+
+.good-list .good-item-header a .icon {
+  color: #999;
+  padding-right: 10px;
+}
+
+.good-list .good-item-body {
+  display: table;
+  width: 100%;
+}
+
+.good-list .good-item-body > * {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.good-item-body .check-good {
+  width: 15%;
+  min-width: 80px;
+}
+
+.good-item-body .good-pic {
+  height: 240px;
+  overflow: hidden;
+}
+
+.good-item-body .good-pic img {
+  height: 100%;
+  width: 100%;
+}
+
+.good-item-footer {
+  text-align: right;
+  color: #999999;
+  padding-right: 10px;
+}
+
+.action-bar {
+  width: 100%;
+  display: table;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ffffff;
+}
+
+.action-bar > * {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.action-bar .checkbox {
+  width: 15%;
+  min-width: 80px;
+  padding-left: 2em;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.action-bar .total-calc {
+  text-align: right;
+}
+
+.action-bar .total-calc .total-price {
+  padding: 10px;
+  background-color: #ff9900;
+}
