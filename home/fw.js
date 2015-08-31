@@ -12,7 +12,7 @@ Object.keys(source).forEach(function(key) {
 var transformed = citylist.map(function(item) {
   return {
     name: item.cityName,
-    pingyin: item.citySlug,
+    pinyin: item.citySlug,
     abbr: item.cityCode.toUpperCase(),
     index: item.citySlug[0].toUpperCase()
   };
